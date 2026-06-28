@@ -2,10 +2,11 @@
   "name": "docker-challenge",
   "version": "1.0.0",
   "description": "Node Server",
-  "main": "app.js",
+  "main": "src/app.js",
   "scripts": {
-    "start": "nodemon app.js",
-    "loadusers": "node load-users.js"
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "loadusers": "node src/load-users.js"
   },
   "author": "Almayo Mekonen",
   "license": "ISC",
